@@ -3,9 +3,7 @@ from flask import Flask , render_template , request
 from pymongo import MongoClient
 import urllib
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
 def create_app():
     app = Flask(__name__)
     
